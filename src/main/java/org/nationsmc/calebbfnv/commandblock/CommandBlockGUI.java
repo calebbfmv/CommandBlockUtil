@@ -1,6 +1,10 @@
 package org.nationsmc.calebbfnv.commandblock;
 
-import net.minecraft.server.v1_7_R4.*;
+import net.minecraft.server.v1_7_R4.ChatSerializer;
+import net.minecraft.server.v1_7_R4.NBTTagCompound;
+import net.minecraft.server.v1_7_R4.PacketPlayOutTileEntityData;
+import net.minecraft.server.v1_7_R4.TileEntityCommand;
+import net.minecraft.server.v1_7_R4.PacketPlayOutOpenSignEditor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_7_R4.entity.CraftPlayer;
