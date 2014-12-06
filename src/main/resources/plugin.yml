@@ -1,0 +1,5 @@
+name: CommandBlockUtil
+main: org.nationsmc.calebbfmv.CommandBlockUtil
+version: 1.0.0.banana
+commands:
+  testcb:
