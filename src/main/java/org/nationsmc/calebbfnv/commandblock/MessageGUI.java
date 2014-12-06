@@ -5,7 +5,9 @@ import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author Tim [calebbfmv] (12/6/2014) for CommandBlockUtil
+ */
 public abstract class MessageGUI {
 
     protected Player p;

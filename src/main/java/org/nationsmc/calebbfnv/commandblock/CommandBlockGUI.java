@@ -10,6 +10,9 @@ import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_7_R4.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
+/**
+ * @author Tim [calebbfmv] (12/6/2014) for CommandBlockUtil
+ */
 public class CommandBlockGUI extends MessageGUI {
     private String def;
     

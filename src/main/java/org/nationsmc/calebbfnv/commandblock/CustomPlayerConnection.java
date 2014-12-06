@@ -10,10 +10,14 @@ import org.bukkit.entity.Player;
 
 import java.io.IOException;
 
+/**
+ * @author Tim [calebbfmv] (12/6/2014) for CommandBlockUtil
+ */
 public class CustomPlayerConnection extends PlayerConnection {
 
     private PlayerConnection con;
     private MessageGUI a;
+
     public CustomPlayerConnection(Player p, PlayerConnection con, MessageGUI gui) {
         super(MinecraftServer.getServer(), ((CraftPlayer) p).getHandle().playerConnection.networkManager, ((CraftPlayer) p).getHandle());
         this.con = con;
@@ -37,7 +41,7 @@ public class CustomPlayerConnection extends PlayerConnection {
             a.callback(msg);
         }
     }
-    
+
     public void restore() {
         player.playerConnection = con;
         player.playerConnection.networkManager.a(con);
