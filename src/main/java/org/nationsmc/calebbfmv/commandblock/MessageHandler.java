@@ -1,7 +1,7 @@
-package org.nationsmc.calebbfnv.commandblock;
+package org.nationsmc.calebbfmv.commandblock;
 
-import org.nationsmc.calebbfnv.commandblock.MessageGUI.MessageCompleteEvent;
-import org.nationsmc.calebbfnv.commandblock.MessageGUI.MessageReceivedEvent;
+import org.nationsmc.calebbfmv.commandblock.MessageGUI.MessageCompleteEvent;
+import org.nationsmc.calebbfmv.commandblock.MessageGUI.MessageReceivedEvent;
 
 /**
  * @author Tim [calebbfmv] (12/6/2014) for CommandBlockUtil

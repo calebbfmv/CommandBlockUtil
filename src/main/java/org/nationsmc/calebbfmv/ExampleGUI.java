@@ -1,11 +1,11 @@
-package org.nationsmc.calebbfnv;
+package org.nationsmc.calebbfmv;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import org.nationsmc.calebbfnv.commandblock.MessageGUI;
-import org.nationsmc.calebbfnv.commandblock.MessageGUI.MessageCompleteEvent;
-import org.nationsmc.calebbfnv.commandblock.MessageGUI.MessageReceivedEvent;
-import org.nationsmc.calebbfnv.commandblock.MessageHandler;
+import org.nationsmc.calebbfmv.commandblock.MessageGUI;
+import org.nationsmc.calebbfmv.commandblock.MessageGUI.MessageCompleteEvent;
+import org.nationsmc.calebbfmv.commandblock.MessageGUI.MessageReceivedEvent;
+import org.nationsmc.calebbfmv.commandblock.MessageHandler;
 
 /**
  * @author Tim [calebbfmv] (12/6/2014) for CommandBlockUtil

@@ -1,4 +1,4 @@
-package org.nationsmc.calebbfnv.commandblock;
+package org.nationsmc.calebbfmv.commandblock;
 
 import org.bukkit.craftbukkit.v1_7_R4.entity.CraftPlayer;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package org.nationsmc.calebbfnv;
+package org.nationsmc.calebbfmv;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
