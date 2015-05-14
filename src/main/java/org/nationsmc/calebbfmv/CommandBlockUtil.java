@@ -12,7 +12,7 @@ import org.bukkit.scheduler.BukkitRunnable;
  */
 public class CommandBlockUtil extends JavaPlugin  {
 
-    private static CommandBlockUtil instance;
+    private static CommandBlockUtil instance = null;
 
     public static CommandBlockUtil getInstance() {
         return instance;
@@ -22,6 +22,11 @@ public class CommandBlockUtil extends JavaPlugin  {
     public void onEnable() {
         instance = this;
         getCommand("testcb").setExecutor(this);
+    }
+
+    @Override
+    public void onDisable(){
+        instance = null;
     }
 
     @Override
